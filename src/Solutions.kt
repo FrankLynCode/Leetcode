@@ -18,6 +18,7 @@ class Solutions{
     fun defineIPAddress(address : String) : String {
         return address.replace(".","[.]")
     }
+
 }
 
 fun main() {
