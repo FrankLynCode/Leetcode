@@ -13,7 +13,8 @@ class Solutions{
     }
  **/
     /**
-     * one line
+     * one linegit
+     *
      */
     fun defineIPAddress(address : String) : String {
         return address.replace(".","[.]")

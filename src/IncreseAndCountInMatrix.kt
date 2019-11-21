@@ -1,5 +1,3 @@
-package dataStructure
-
 /**
  * Example 1:
 
@@ -11,7 +9,7 @@ After applying first increment it becomes [[1,2,1],[0,1,0]].
 The final matrix will be [[1,3,1],[1,3,1]] which contains 6 odd numbers.
  */
 fun main(args: Array<String>) {
-    println(oddCells(2,3, arrayOf(intArrayOf(0,1), intArrayOf(1,1))))
+    println(oddCells(2, 3, arrayOf(intArrayOf(0, 1), intArrayOf(1, 1))))
 }
 
 fun oddCells(n: Int, m: Int, indices: Array<IntArray>): Int {
